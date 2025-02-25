@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Examination System</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple Examination System</h1>
+    <button id="startBtn">Start Exam</button>
+    <div id="quizContainer" style="display: none;">
+        <h3 id="timer">Time Left: 60 sec</h3>
+        <h2 id="questionTitle"></h2>
+        <img id="questionImage" src="" alt="Question Image">
+        <div id="optionsContainer"></div>
+        <button id="nextBtn" disabled>Next</button>
+    </div>
+</body>
+
+<script src="Exam.js"></script>
+<script src="Question.js"></script>
+<script src="Student.js"></script>
+<script src="main.js"></script>
+</html>
